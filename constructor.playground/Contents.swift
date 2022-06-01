@@ -44,7 +44,6 @@ let aFriend = MyFriend()
 let anObjectMemoryAddress = Unmanaged.passUnretained(aFriend).toOpaque()
 let secondMemoryAddress = Unmanaged.passUnretained(myFriend).toOpaque()
 
-
 print(anObjectMemoryAddress)
 print(secondMemoryAddress)
 
