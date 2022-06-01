@@ -55,5 +55,4 @@ if aFriendDestroy != nil {
     aFriendDestroy!.call()
 } else {
     print("객체가 더 이상 메모리에 없습니다.")
-    
 }
